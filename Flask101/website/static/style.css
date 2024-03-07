@@ -1,0 +1,50 @@
+/* Temel stiller */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+/* Özel stiller */
+.navbar {
+    border-radius: 5px;
+}
+
+.navbar-item {
+    margin-right: 10px;
+}
+
+#login, #sign-up, #logout, #home {
+    color: white;
+    margin-right: 10px;
+}
+
+#login:hover, #sign-up:hover, #logout:hover, #home:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+}
