@@ -4,7 +4,7 @@ import requests
 views = Blueprint('views', __name__)
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
-api_key = "9129a4796b56ca6071d6296a91927c81"
+api_key = "YOUR API KEY"
 
 weather_conditions = []
 
